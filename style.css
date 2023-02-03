@@ -6,12 +6,27 @@
     font-size: 16px;
 }
 
-body{
+body, main{
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
     border: solid red;
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    width: 60%;
 }
+
+.des{
+    width: 60vh;
+}
+
+.box{
+    width: 30vh;
+}
+
 
 
