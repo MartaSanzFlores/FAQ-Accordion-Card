@@ -16,18 +16,42 @@ body, main{
 
 .container{
     border: solid red;
-    /* display: grid;
-    grid-template-columns: auto auto; */
-    width: 60%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 50%;
+}
+
+.picture{
+    width: 100%;
+}
+
+.text{
 }
 
 .des{
-    width: 60vh;
+    /* position: absolute; */
+    width: 50%;
 }
+
+.bg{
+
+}
+
+.wo{
+
+}
+
+
 
 .box{
-    width: 30vh;
+    /* width: 30vh; */
 }
 
+@media only screen and (max-width: 600px) {
+    .box{
+        display: none;
+    };
+} 
 
 
