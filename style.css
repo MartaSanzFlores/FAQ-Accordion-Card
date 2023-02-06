@@ -26,27 +26,27 @@ body, main{
     width: 100%;
 }
 
-.text{
-}
+/* .text{
+} */
 
 .des{
     /* position: absolute; */
     width: 50%;
 }
 
-.bg{
+/* .bg{
 
-}
+} */
 
-.wo{
+/* .wo{
 
-}
+} */
 
 
 
-.box{
-    /* width: 30vh; */
-}
+/* .box{
+    width: 30vh;
+} */
 
 @media only screen and (max-width: 600px) {
     .box{
