@@ -19,19 +19,21 @@ body, main{
     background-color: white;
     display: grid;
     grid-template-columns: 50% 50%;
-    width: 50%;
+    width: 100%;
 }
 
 .picture{
     width: 100%;
 }
 
-/* .text{
-} */
+.text{
+    width: 100%;
+    
+}
 
 .des{
-    /* position: absolute; */
-    width: 50%;
+    position: absolute;
+    width: 30%;
 }
 
 /* .bg{
