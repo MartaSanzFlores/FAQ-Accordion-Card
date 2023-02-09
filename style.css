@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 body{
@@ -31,6 +31,9 @@ body{
     font-size: 1.2em;
     font-family: 'Kumbh Sans', sans-serif;
     line-height: 330%;
+    margin-bottom: 20%;
+    margin-right: 15%;
+    color: hsl(238, 29%, 16%);
 }
 
 h1{
@@ -39,14 +42,26 @@ h1{
     margin-bottom: 5%;
 }
 
-.bot{
-    margin-bottom: 15%;
-}
-
 .des{
     position: absolute;
     width: 30%;
     bottom: 1%;
+}
+
+hr{
+    width: 80%;
+    color: hsl(240, 5%, 91%);
+}
+
+.q:hover {
+    color: hsl(14, 88%, 65%);
+}
+
+.answer{
+    display: block;
+    line-height: 120%;
+    width: 85%;
+    /* display: none; */
 }
 
 /* .bg{
