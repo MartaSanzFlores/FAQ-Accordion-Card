@@ -58,10 +58,14 @@ hr{
 }
 
 .answer{
+    display: none;
+}
+
+.answer2{
     display: block;
     line-height: 120%;
     width: 85%;
-    /* display: none; */
+    margin-bottom: 5%;
 }
 
 /* .bg{
