@@ -42,12 +42,6 @@ h1{
     margin-bottom: 5%;
 }
 
-.des{
-    position: absolute;
-    width: 30%;
-    bottom: 1%;
-}
-
 hr{
     width: 80%;
     color: hsl(240, 5%, 91%);
@@ -72,23 +66,25 @@ hr{
     font-weight: 700 ;
 }
 
-.red{
-    color: red;
+.des{
+    position: absolute;
+    width: 33%;
+    bottom: 25%;
+    left: 12%;
 }
 
-/* .bg{
-
-} */
-
-/* .wo{
-
-} */
+.bg{
+    width: 45%;
+    bottom: 10%;
+    left: 0%;
+}
 
 
-
-/* .box{
-    width: 30vh;
-} */
+.box{
+    width: 14%;
+    bottom: 30%;
+    left: 11%;
+}
 
 @media only screen and (max-width: 600px) {
     .box{
