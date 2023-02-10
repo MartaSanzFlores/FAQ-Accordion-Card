@@ -1,7 +1,7 @@
-var question = document.getElementsByClassName(q1);
-var ranswer = document.getElementsByClassName(answer1);
+var question = document.querySelectorAll(".q");
 
-
-question.addEventListener("click", function() {
-    ranswer.setAttribute("class", "answer2");
-})
+question.forEach((q) => {
+	q.addEventListener("click", function() {
+        q.lastChild.classList.toggle("answer2");
+    })
+});
