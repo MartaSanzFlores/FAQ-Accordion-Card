@@ -37,7 +37,9 @@ body{
 }
 
 h1{
-    font-size: 2.3em;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
     margin-top: 13%;
     margin-bottom: 5%;
 }
@@ -55,6 +57,10 @@ hr{
     display: none;
 }
 
+.q{
+    width: 80%;
+}
+
 .answer2{
     display: block;
     line-height: 120%;
@@ -64,6 +70,10 @@ hr{
 
 .q2{
     font-weight: 700 ;
+}
+
+.icon2{
+    transform: rotate(180deg);
 }
 
 .des{
