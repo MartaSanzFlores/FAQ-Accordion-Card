@@ -1,11 +1,10 @@
 var question = document.querySelectorAll(".q");
-var icon = document.querySelectorAll(".q");
 
 question.forEach((q) => {
 	q.addEventListener("click", function() {
         q.lastChild.classList.toggle("answer2");
         q.firstChild.classList.toggle("q2");
         q.classList.toggle("q");
-        q.children[1].classList.toggle("icon2");
+        q.children[1].classList.toggle("iconx");
     })
 });
